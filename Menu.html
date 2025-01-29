@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Marahuyo</title>
+    <link rel="stylesheet" href="menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="head1">
+        <a href="Cafe.html">
+        <img href="Ca"
+          src="https://scontent.fmnl33-2.fna.fbcdn.net/v/t1.15752-9/472405332_643877857970240_9127972766296051341_n.png?stp=dst-png_s2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEHVzoHPk6MM5-cWdeJDhawya5vWQGHs23Jrm9ZAYezbRfv3Vm8fJEHlRTI9CEoluExF9Ca97A0iFeiPtpzgeS1&_nc_ohc=AYxX9w6rsuQQ7kNvgG3LZBB&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&oh=03_Q7cD1gE0txyH8GWctSTqgxjJDtCfSiIAHo1eHxIML482t1duwQ&oe=67A8440E"
+          alt="logo"
+        /></a>
+        <nav class="menu">
+          <ul>
+          <li onclick=hideSidebar()></li>
+          <li class="hideOnMobile"><a href="Menu.html" style="color:#5c4033;">Menu</li></a>
+          <li class="hideOnMobile"><a href="About.html"style="color:#5c4033;">About</li></a>
+          <li class="hideOnMobile"><a href="https://www.facebook.com/share/18WqEyEq1j/?mibextid=wwXIfr" target="_blank"style="color:#5c4033;">Contacts</li></a>
+        </ul>
+        </nav>
+      </div>
+      <div class="head2">
+        <div class="headloc">
+          
+            <a href="https://maps.app.goo.gl/petfkiaA7dLY4zSK7" target="_blank">
+            <span class="material-icons"> near_me </span>
+            </a>
+          </li>
+          <li class="hideOnMobile"><a href="https://maps.app.goo.gl/petfkiaA7dLY4zSK7" target="_blank"><li>Location</li>
+          </a></li>
+        </div>
+        <li class="hideOnMobile"><a href="https://forms.gle/CtLqRZwBAHPEcer38" target="_blank"><li>Order</li>
+          </a></li>
+          <li onclick=showSidebar()> <span class="material-icons" height="60%" width="60%">
+            menu
+            </span>
+        </div>
+        <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+      </script>
+
+    <div class="sidebar">
+      <div class="head11">
+        <ul>
+        <li onclick=hideSidebar()> <span class="material-icons" height="40" width="40">
+          close
+          </span></li>
+        </ul>
+        <nav class="menuu">
+          <ul>
+          <li class="hideOnMobile"><a href="Main"><li>Menu</li></a></li>
+          <li class="hideOnMobile"><a href="About.html"><li>About</li></a>
+          <li class="hideOnMobile"><a href="https://www.facebook.com/share/18WqEyEq1j/?mibextid=wwXIfr" target="_blank"><li>Contacts</li></a></li>
+          <li class="hideOnMobile"><a href="https://maps.app.goo.gl/petfkiaA7dLY4zSK7" target="_blank"><li>Location</li>
+          </a></li>
+          <li class="hideOnMobile"><a href="https://forms.gle/CtLqRZwBAHPEcer38" target="_blank"><li>Order</li>
+          </a></li>
+        </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+    <div class="menupage">
+      <a href="">
+        <div class="card1">
+          <img src="https://surl.li/isqlff" alt="" />
+        </div>
+      </a>
+      <a href="">
+        <div class="card2">
+          <img src="https://surl.li/qnwpkf" alt="" />
+        </div>
+      </a>
+      <a href="">
+        <div class="card3">
+          <img src="https://surl.li/lwqtgz" alt="" />
+        </div>
+      </a>
+    </div>
+  </body>
+</html>

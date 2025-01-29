@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Marahuyo</title>
+    <link rel="stylesheet" href="menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="head1">
+        <a href="Cafe.html">
+        <img href="Ca"
+          src="https://scontent.fmnl33-2.fna.fbcdn.net/v/t1.15752-9/472405332_643877857970240_9127972766296051341_n.png?stp=dst-png_s2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEHVzoHPk6MM5-cWdeJDhawya5vWQGHs23Jrm9ZAYezbRfv3Vm8fJEHlRTI9CEoluExF9Ca97A0iFeiPtpzgeS1&_nc_ohc=AYxX9w6rsuQQ7kNvgG3LZBB&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&oh=03_Q7cD1gE0txyH8GWctSTqgxjJDtCfSiIAHo1eHxIML482t1duwQ&oe=67A8440E"
+          alt="logo"
+        /></a>
+        <nav class="menu">
+          <ul>
+          <li onclick=hideSidebar()></li>
+          <li class="hideOnMobile"><a href="Menu.html" style="color:#5c4033;">Menu</li></a>
+          <li class="hideOnMobile"><a href="About.html"style="color:#5c4033;">About</li></a>
+          <li class="hideOnMobile"><a href="https://www.facebook.com/share/18WqEyEq1j/?mibextid=wwXIfr" target="_blank"style="color:#5c4033;">Contacts</li></a>
+        </ul>
+        </nav>
+      </div>
+      <div class="head2">
+        <div class="headloc">
+          
+            <a href="https://maps.app.goo.gl/petfkiaA7dLY4zSK7" target="_blank">
+            <span class="material-icons"> near_me </span>
+            </a>
+          </li>
+          <li class="hideOnMobile"><a href="https://maps.app.goo.gl/petfkiaA7dLY4zSK7" target="_blank"><li>Location</li>
+          </a></li>
+        </div>
+        <li class="hideOnMobile"><a href="https://forms.gle/CtLqRZwBAHPEcer38" target="_blank"><li>Order</li>
+          </a></li>
+          <li onclick=showSidebar()> <span class="material-icons" height="60%" width="60%">
+            menu
+            </span>
+        </div>
+        <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+      </script>
+
+    <div class="sidebar">
+      <div class="head11">
+        <ul>
+        <li onclick=hideSidebar()> <span class="material-icons" height="40" width="40">
+          close
+          </span></li>
+        </ul>
+        <nav class="menuu">
+          <ul>
+          <li class="hideOnMobile"><a href="Main"><li>Menu</li></a></li>
+          <li class="hideOnMobile"><a href="About.html"><li>About</li></a>
+          <li class="hideOnMobile"><a href="https://www.facebook.com/share/18WqEyEq1j/?mibextid=wwXIfr" target="_blank"><li>Contacts</li></a></li>
+          <li class="hideOnMobile"><a href="https://maps.app.goo.gl/petfkiaA7dLY4zSK7" target="_blank"><li>Location</li>
+          </a></li>
+          <li class="hideOnMobile"><a href="https://forms.gle/CtLqRZwBAHPEcer38" target="_blank"><li>Order</li>
+          </a></li>
+        </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+    
+    <body>
+        <div class="About">
+          <p>
+            <p class="about1" style="color: antiquewhite; margin: 50px"> Mission Statement: Cafe Marahuyo is dedicated to offering a rejuvenating haven for souls in search of diverse, high-quality milk teas and coffees. We commit to crafting a warm and inviting space where weariness is replaced by enthusiasm with every sip, ensuring an affordable yet premium experience for our patrons
+             Vision Statement: At Cafe Marahuyo, our vision is to be the cherished retreat for those seeking a respite from daily hustle. We aim to consistently provide an exceptional range of beverages in a cozy setting.
+              Through our passion and commitment, we aspire to be a thriving symbol of warmth and rejuvenation, celebrated by our community and beyond.
+            </p>
+            <p class="about2" style="color: antiquewhite; margin: 50px"> Cafe Marahuyo emerged from our desire to create a haven for weary souls seeking a blend of diverse milk teas and coffees. In the third quarter of 2021, armed with a modest budget, we embarked on the journey of establishing a small coffee shop. Despite initial uncertainties, our dream materialized.
+              By the fourth quarter of the same year, we formalized our venture, registering Cafe Marahuyo with the DTI Provincial Office. Our commitment is reflected in securing necessary permits and registrations, including those from the Business Permit and Bureau of Internal Revenue in 2023. Today, Cafe Marahuyo stands as a testament to our passion for providing a space where weariness transforms into enthusiasm with each sip.
+              We are located at 15-B M. Santos St., Bgy. San Jose, Antipolo City.
+            </p>
+          </p>
+        </div>
+    </body>
